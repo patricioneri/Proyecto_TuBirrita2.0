@@ -32,12 +32,12 @@ header {
     background-color: #596b60;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 .logo a img {
-    width: 20rem;
+    width: 7rem;
+    margin-left: 4rem;
 }
 
 header nav a {
@@ -90,7 +90,6 @@ footer a img {
 }
 
 /* ------------ menu_hamburguesa ------------------------- */
-
 
 #btn-menu {
     display: none; 
@@ -435,7 +434,6 @@ footer a img {
         visibility: hidden;
         opacity: 0;
         transition: all 0.5s;
-
     }
 
     .nav a {
@@ -515,8 +513,6 @@ footer a img {
         width: 50%;
     }
 
-
-
     /* ------------ conocenos_responsive_tablet ------------------------- */
 
     .main_conocenos {
@@ -542,11 +538,9 @@ footer a img {
         .formulario_contacto {
             width: 60%;
         }
-
 }
 
 /* --------------------------Responsive_celular----------------- */
-
 
 @media screen and (max-width: 480px) { 
     .grid_container {
